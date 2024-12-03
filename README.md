@@ -97,5 +97,5 @@ Certain libraries within the platform have interdependencies; refer to the depen
 
 ```mermaid
 graph TD
-    A[Sidub.Messaging] --> B[Sidub.Messaging.Host.SignalR]
-    B --> C[Azure Marketplace: Sidub Messaging]
+    C[Azure Marketplace: Sidub Messaging] --> B[Sidub.Messaging.Host.SignalR]
+    B --> A[Sidub.Messaging]
